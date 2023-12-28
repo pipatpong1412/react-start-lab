@@ -5,5 +5,10 @@
 }
 
 body {
-  color: red;
+  color: tomato;
+}
+
+#root > * {
+  margin-top: 16px;
+  padding: 8px;
 }

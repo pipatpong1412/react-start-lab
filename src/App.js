@@ -1,7 +1,15 @@
 import React from "react";
+import TestEvent from "./TestEvent";
+import TestForm from "./TestForm.jsx";
 
 function App() {
-  return <h1>Hello React, Codecamp Academy 01</h1>;
+  return (
+    <div className="app">
+      <h1>React Event & FORM</h1>
+      {/* <TestEvent /> */}
+      <TestForm />
+    </div>
+  )
 };
 
 export default App;
